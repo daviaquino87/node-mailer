@@ -12,7 +12,7 @@ Aplicação para envio de emails com NodeJS
 #### Adiciona uma Compra
 
 ```http
-  POST /mesage
+  POST /email
 ```
 
 | Parâmetro   | Tipo       | Descrição                           |
