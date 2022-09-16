@@ -9,20 +9,22 @@ Aplicação para envio de emails com NodeJS
 
 ## Documentação da API
 
-#### Adiciona uma Compra
+#### Envia um email
 
 ```http
-  POST /mesage
+  POST /sendemail
 ```
 
 | Parâmetro   | Tipo       | Descrição                           |
 | :---------- | :--------- | :---------------------------------- |
-| `destino` | `email` | **Obrigatório**. Destinatario do e-mail |
+| `destino` | `string` | **Obrigatório**. Destinatario do e-mail |
 | `assunto` | `string` | **opciona**. Assunto do e-mail |
 | `mensagem` | `string` | **opciona**. Texto do e-mail |
 
 
-
+## Host usado para envio
+  `SMTP google`
+  
 ## Variáveis de Ambiente
 
 Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de ambiente no seu .env
